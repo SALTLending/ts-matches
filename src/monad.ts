@@ -4,7 +4,7 @@ export type DisjoinUnionRaw<A, Key extends keyof A> = Key extends string
 export type DisjoinUnion<A> = DisjoinUnionRaw<A, keyof A>;
 export type DisjoinUnionTypes<A> = DisjoinUnion<A>["type"] & keyof A;
 
-type GetMonadType<T> = T extends MonadUnion<infer A, any>  ? A : never
+type GetMonadType<T> = T extends MonadUnion<infer A, any> ? A : never;
 export class MonadUnion<A extends {}, DefaultKey extends DisjoinUnionTypes<A>> {
   static of<
     A extends {},
