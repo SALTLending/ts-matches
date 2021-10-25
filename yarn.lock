@@ -1319,10 +1319,10 @@ expect@^27.2.4:
     jest-message-util "^27.2.4"
     jest-regex-util "^27.0.6"
 
-fast-check@^2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-2.17.0.tgz#9b9637684332be386219a5f73a4799874da7461c"
-  integrity sha512-fNNKkxNEJP+27QMcEzF6nbpOYoSZIS0p+TyB+xh/jXqRBxRhLkiZSREly4ruyV8uJi7nwH1YWAhi7OOK5TubRw==
+fast-check@^2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-2.18.1.tgz#230c90721ed8b743739731a3b1f7d3fafaf5647f"
+  integrity sha512-iNntcmt4xX3UvDV6tJNUIUrbskT78RCUTtZDfT8/QU+b8pDrmfi4aBIVaXDi3qHtseSp0pDIsdPPy73Uu4RmsA==
   dependencies:
     pure-rand "^5.0.0"
 
